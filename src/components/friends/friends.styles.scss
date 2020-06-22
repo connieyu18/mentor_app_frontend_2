@@ -1,0 +1,84 @@
+@import "../../assets/utilities/variables";
+
+.friends {
+    padding: 30px;
+    width: 86%;
+    margin:5%;
+    .pending-requests-wrapper, .connections-wrapper{
+        padding-top:30px;
+        padding-bottom:30px;
+    }
+    .pending-requests-wrapper{
+        background-color:$pink;
+    }
+    .profile-img {
+        width: 100px;
+        height: 100px;
+        background-color: white;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+    }
+
+    .button-friends {
+        width: 70px;
+        margin: 0px 4px;
+        color: $purpleblue;
+        background-color: white;
+        border: 2px solid navy;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+
+    }
+
+    .profile-img-connected {
+        width: 100px;
+        height: 100px;
+        border-radius: 50%;
+        margin-bottom: 10px;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.3);
+    }
+
+
+    h4,
+    .link {
+        line-height: 0.2;
+    }
+
+    .link {
+        font-size: 13px;
+    }
+
+    .buttons {
+        margin-top: 10px;
+    }
+
+    .card-wrapper {
+        // margin: 10px 5% 15px;
+        margin:20px;
+        // background-color:$lightgray;
+    }
+    .gallery{
+        display:flex;
+        flex-direction: row;
+        padding:0px 5%;
+        flex-wrap:wrap;
+    }
+    .connections-wrapper {
+        margin-top: 30px;       
+         border: 1.5px solid $salmon;
+
+    }
+    .links{
+        color:$purpleblue;
+        font-weight:700;
+    }
+    .flower-ring-background{
+        height:100%;
+        width:100%;
+        background-size:cover;
+        position:relative;
+    }
+    .flower-img{
+        width:50%;
+    }
+}

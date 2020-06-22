@@ -1,0 +1,22 @@
+.meetings-card{
+    width:200px;
+    background-color:rgb(240, 203, 198);
+    border-radius:5px;
+    padding:10px;
+    box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+    margin:5px 0px;
+    .profile-img{
+        width:70px;
+        border-radius:50%;
+        height:70px;
+        margin-bottom:6px;
+
+    }
+    p{
+        line-height: 0.5;
+    }
+    span{
+        color:rgb(97, 97, 226);
+        font-weight:400;
+    }
+}

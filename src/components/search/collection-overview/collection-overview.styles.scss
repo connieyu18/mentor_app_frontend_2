@@ -1,0 +1,11 @@
+.collections-overview {
+    display: flex;
+    flex-direction: column;
+    padding: 0px 7%;
+
+    .collections-overview::after{
+        content: "";
+        flex: 1 1 100%;
+        max-width: 32%;
+    }
+}

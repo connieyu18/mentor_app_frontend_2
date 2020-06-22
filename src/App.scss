@@ -1,0 +1,70 @@
+@import "./assets/utilities/variables";
+
+.App {
+  text-align: center;
+  height: 100vh;
+}
+.wrapper {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+}
+
+* {
+  font-family: "Baloo 2", cursive;
+  box-sizing: border-box;
+}
+
+.link {
+  text-decoration: none;
+  color: $blue;
+  font-size: 1.2rem;
+}
+.text-center {
+  text-align: center;
+  color: rgb(182, 93, 93);
+}
+.ant-upload-picture-card-wrapper {
+  width: 50% !important;
+}
+.leaves-left-1 {
+  width: 200px;
+  position: absolute;
+  left: 0px;
+  z-index: -1;
+}
+.leaves-right-1 {
+  width: 270px;
+  position: absolute;
+  right: 0px;
+  z-index: -1;
+}
+.goldlines {
+  z-index: -1;
+  width: 100%;
+  opacity: 0.5;
+  position: relative;
+  top: -250px;
+}
+p {
+  font-size: 16px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+}
+
+@media only screen and (min-device-width: 569px) {
+}
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 970px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}

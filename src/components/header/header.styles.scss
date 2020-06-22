@@ -1,0 +1,68 @@
+@import "../../assets/utilities/variables";
+
+
+.header {
+  height: 70px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 25px;
+  background-color: $salmon;
+  color: $black;
+  padding: 0px 10px;
+ 
+  .logo-container {
+    width: 100px;
+    padding: 25px;
+  }
+
+  .logo {
+    margin-top: 100px;
+    z-index:-1;
+  }
+  #logo-name{
+    display: flex;
+    align-items: center;
+    height: 100%;
+    color:black;
+  }
+
+  .options {
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+
+    .option {
+      padding: 10px 15px;
+    }
+  }
+}
+
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .logo {
+    display: none;
+  }
+}
+
+@media only screen and (min-device-width: 569px) {}
+
+@media (min-width: 768px) {}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 970px) {}
+
+@media (max-width: 1082px) {
+  .logo {
+    margin-top: 100px;
+    width: 60vw;
+  }
+}
+
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {}

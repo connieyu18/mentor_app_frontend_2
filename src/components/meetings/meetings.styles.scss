@@ -1,0 +1,52 @@
+@import "../../assets/utilities/variables";
+.meetings {
+  padding: 20px;
+  text-align: center;
+  h2 {
+    margin: 0px auto;
+  }
+  .confirmed-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    padding: 5px;
+  }
+  .new-meeting {
+    border: 2px solid $gold;
+    background-color: $white;
+    width: 30vw;
+    margin-bottom: 40px;
+    margin: 20px auto;
+    padding: 10px;
+  }
+
+  .confirmed-container::after {
+    content: "";
+    flex: 1 1 100%;
+    max-width: 32%;
+  }
+  .button-dropdown {
+    width: 100vw;
+    margin: 10px auto;
+  }
+}
+
+@media only screen and (min-device-width: 569px) {
+}
+
+@media (max-width: 768px) {
+  .meetings .new-meeting {
+    width: 80vw;
+  }
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 970px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}

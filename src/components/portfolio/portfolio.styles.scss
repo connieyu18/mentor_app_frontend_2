@@ -1,0 +1,30 @@
+
+
+.portfolio{
+    width:100%;
+    padding:0 40px;
+    position:relative;
+    .portfolio-wrapper{
+        display:flex;
+    }
+    h1{
+        margin-bottom:40px;
+    }
+    .all-projects-wrapper{
+        display:flex;
+        flex-direction:row;
+    }
+      .portfolio-form{
+        Form{
+            width:400px;
+            padding:20px;
+            margin:0px auto;
+            background-color:rgb(226, 235, 240);
+            text-align:left;
+            margin-right:40px;
+        }
+    }
+    
+}
+
+

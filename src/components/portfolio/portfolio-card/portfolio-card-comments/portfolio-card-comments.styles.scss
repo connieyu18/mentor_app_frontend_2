@@ -1,0 +1,23 @@
+@import "../../../../assets/utilities/variables";
+
+.portfolio-card-comments {
+  .form-container {
+    position: relative;
+  }
+  .form-input,
+  .button-comments {
+    display: inline-block;
+  }
+  .button-comments {
+    margin: 4px;
+    display: flex;
+    margin-left: auto;
+  }
+  .mentor-name {
+    color: $salmon;
+  }
+  .comments-list {
+    height: 75px;
+    overflow-y: scroll;
+  }
+}

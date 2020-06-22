@@ -1,0 +1,21 @@
+@import "../../assets/utilities/variables";
+
+.profile {
+  text-align: center;
+  width: 100%;
+  margin: 0px auto;
+  .profile-img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    margin: 30px 0px;
+    border: 3px solid #606291;
+    background-color: $white;
+  }
+  .small-wrapper {
+    margin: 40px auto;
+  }
+  span {
+    color: $blue;
+  }
+}

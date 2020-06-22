@@ -1,0 +1,30 @@
+.search-form {
+  margin: 50px auto;
+
+  Form {
+    width: 35vw;
+    margin: 0px auto;
+  }
+
+  .collections-overview {
+    width: 100vw;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-evenly;
+  }
+  .collections-overview::after {
+    content: "";
+    flex: 1 1 100%;
+    max-width: 50%;
+  }
+  .card-wrapper {
+    height: auto;
+    width: 300px;
+  }
+
+  .preview {
+    display: flex;
+    justify-content: space-between;
+  }
+}

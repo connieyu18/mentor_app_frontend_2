@@ -1,0 +1,42 @@
+.sign-up {
+  display: flex;
+  flex-direction: column;
+  width: 45%;
+  .title {
+    margin: 10px 0;
+  }
+  input::placeholder {
+    font-size: 16px;
+    font-weight: 100;
+  }
+}
+
+.error-message {
+  color: #f26969;
+  font-weight: bold;
+  font-size: 0.9em;
+  display: block;
+  text-align: right;
+  margin-top: 5px;
+}
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .sign-up {
+    width: 380px;
+  }
+}
+
+@media only screen and (min-device-width: 569px) {
+}
+
+@media (min-width: 768px) {
+}
+
+/* Large devices (desktops, 992px and up) */
+
+@media (min-width: 970px) {
+}
+
+/* Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+}

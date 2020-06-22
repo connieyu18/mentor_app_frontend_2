@@ -1,0 +1,39 @@
+.add-availability {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  width: 100%;
+  Form,
+  .display-container {
+    width: 400px;
+    margin: 0px auto;
+  }
+  .add-container,
+  .display-container {
+    width: 50vw;
+  }
+  .error-message {
+    text-align: center;
+    margin-bottom: 5px;
+  }
+  .students-img {
+    width: 370px;
+    position: relative;
+    left: 250px;
+  }
+}
+
+@media (max-width: 768px) {
+  .add-availability {
+    display: block;
+    Form {
+      width: 80vw;
+      margin: 0px auto;
+    }
+    .add-container,
+    .display-container {
+      width: 100vw;
+      margin: 70px 0px;
+    }
+  }
+}

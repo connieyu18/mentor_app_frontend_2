@@ -1,0 +1,29 @@
+@import "../../assets/utilities/variables";
+
+
+.sign-up-form{
+    margin:70px auto;
+    width:40%;
+    .select-option{
+        background-color:$lightgray;
+        padding: 10px 10px 10px 5px;
+        width: 100%;
+    }
+    .form-button{
+        margin-top:30px;
+    }
+    .uploader{
+        margin:20px auto;
+        width:200px;
+    }
+    .title{
+        margin-top:20px;
+    }
+    .logoName{
+        position:absolute;
+        left:20px;
+        // top:30px;
+        z-index:1001;
+    }
+
+}

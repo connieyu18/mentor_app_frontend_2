@@ -1,0 +1,60 @@
+@import "../../assets/utilities/variables";
+
+.requests{
+    padding: 20px;
+
+    .small-title{
+        text-align:left;
+    }
+    .profile-img{
+        width:100px;
+    }
+    .request-card{
+        width:60%;
+        background-color:$peach;
+        margin:10px auto;
+        height:auto;
+        border-radius:5px;
+        padding:20px;
+        display:flex;
+        flex-direction: row;
+        justify-content: space-between;
+        box-shadow: 0 3px 3px 0 rgba(0, 0, 0, 0.1);
+        .profile-img{
+            width: 60px;
+            height:60px;
+            border-radius:50%;
+            margin-bottom:5px;
+            margin-right:15px;
+        }
+        .top-container{
+            display:flex; 
+            align-items:top;
+            padding-right:20px;
+        }
+        .bottom-container{
+            margin-top:8px;
+        }
+        p{
+            line-height:0.4;
+            font-size:13px;
+        }
+        .request-img-container, .request-info-container{
+            width:50vw;
+            text-align:left;
+        }
+        Button {
+            margin-right:20px;
+        }
+
+    }
+    .flower-right{
+        width:400px;
+        position:relative;
+        left:300px;
+        top:300px;
+       }
+
+}
+
+

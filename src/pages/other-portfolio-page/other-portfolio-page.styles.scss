@@ -1,0 +1,24 @@
+.main-wrapper-portfolio{
+    h1{
+        margin:0px auto;
+        margin-bottom:30px;
+    }
+    .portfolio2{
+        width:100%;
+        display:flex;
+        flex-direction:row;
+        text-align:center;
+        flex-wrap:wrap;
+        justify-content:space-evenly;
+    }
+    .comment-box{
+        width:100vw;
+        margin-bottom:50px;
+        h4{
+            color:rgb(120, 120, 243);
+        }
+    }
+    .teacher-img{
+        width:60vw;
+    }
+}
